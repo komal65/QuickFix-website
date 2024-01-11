@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Mech service</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Prices of Mechanical services </h2>
+<p style="text-align:center">  resonable prices </p>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Service</li>
+    <li >wheel changes(4-Wheeler)</li>
+    <li >wheel changes(2-Wheeler)</li>
+    <li>battery faults(4-Wheeler)</li>
+    <li>battery faults(2-Wheeler)</li>
+    <li>drive belt problems</li>
+    <li>ignition parts</li>
+    <li>Vehicle running out of fuel  </li>
+    <li class="grey"><a href="home.html" class="button">Home</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-color:#04AA6D">Basic</li>
+    <li >3000</li>
+    <li>1000</li>
+    <li>3500</li>
+    <li>1200</li>
+    <li>500</li>
+    <li>500</li>
+    <li>500</li>
+    <li class="grey"><a href="login.html" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Premium</li>
+    <li >5000</li>
+    <li>1200</li>
+    <li>5000</li>
+    <li>1700</li>
+    <li>800</li>
+    <li>500</li>
+    <li>500</li>
+    <!-- <li class="grey"><a href="login.html" class="button">Sign Up</a></li> -->
+  </ul>
+</div>
+
+</body>
+</html>

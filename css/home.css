@@ -1,0 +1,93 @@
+
+        site-header{
+            display: inline;
+        }
+
+        body {
+            font-family: Helvetica;
+            
+          }
+          h1{
+            color: rgb(19, 9, 85);
+            text-size-adjust: 200px;
+            }
+          a {
+            font-size: larger;
+            text-decoration:solid;
+            color: #131312;
+          }
+          .site-header{
+            color: wheat;
+            /* margin: 5px; */
+            padding: 10px;
+            border: 5px;
+            border-color: black;
+          }
+          
+          .site-identity {
+            float: left;
+            
+            
+          }
+          
+          .site-identity h1 {
+            font-size: 1.5em;
+            margin: .7em 0 .3em 0;
+            display: inline-block;
+          }
+          
+          .site-identity img {
+            max-width: 55px;
+            float: left;
+            margin: 0 10px 0 0;
+          }
+          
+          .site-navigation {
+            float: right;
+          }
+          
+          .site-navigation ul, li {
+            margin: 0; 
+            padding: 0;
+          }
+          
+          .site-navigation li {
+            display: inline-block;
+            margin: 1.4em 1em 1em 1em;
+          }
+          .menu{
+            text-align: center;
+            margin: 10px;
+            padding: 10px;
+            font-weight: bolder;
+            font-style:oblique;
+          }
+          .row1{
+                margin: 10px;
+                width: 33.33%;
+                height: 50%;
+          }
+          .container {
+            position: relative;
+            text-align: center;
+            color: white;
+          }
+          .book_button ,.submit_button{
+            text-align: center;
+            width: 150px;
+            height: 50px;
+            size: 30px;
+            background-color: rgb(9, 21, 69);
+            color: aliceblue;
+            margin-left: 650px;
+            margin-top: 30px;
+          }
+          .book_button ,.submit_button:hover {
+            background-color:transparent;
+            border-radius: 5px solid;
+            border-color: #131312;
+            font-style: oblique;
+            
+
+          }
+          

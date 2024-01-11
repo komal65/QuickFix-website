@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Service Booking Form</title>
+  <style>
+
+    body{
+      background: linear-gradient(rgb(161, 161, 222) );
+    }
+    
+    .form-container {
+      max-width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #94c1d269;
+      border: 1px solid #060606;
+      border-radius: 15px;
+    }
+    .form-container p{
+      color: red;
+    }
+
+
+    .form-container h1 {
+      text-align: center;
+      text-shadow: #060606;
+    }
+
+    .form-container label,
+    .form-container input,
+    .form-container select {
+      display: block;
+      font-size: large;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+
+    .form-container input,
+    .form-container select {
+      padding: 8px;
+      font-size:medium;
+      border: 1px solid #f1ebeb;
+      border-radius: 9px;
+    }
+
+    
+    .center{
+        display: block;
+        margin: 10px;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 500px;
+        font-size: larger;
+        background-color: rgb(180, 32, 32);
+        
+    }
+    
+
+    .form-container button:hover {
+      background-color: #407014;
+      font-style: oblique;
+    }
+    .home_link{
+        
+        color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    
+    <h1 ><b>  Service Booking Form </b></h1>
+    <p>* Required</p>
+    <!-- <form action="submit_form.php" method="post"> -->
+      <form >
+      <label for="name"> <b>Name  *</b></label>
+      <input type="text" id="name" name="name" required>
+      <label for="email"><b>Email </b></label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone"><b>Phone *</b></label>
+      <input type="tel" id="phone" name="phone" required>
+      <label for="date"><b>Date * </b></label>
+      <input type="date" id="date" name="date" required>
+      <label for="time"><b> Time *</b></label>
+      <input type="time" id="time" name="time" required>
+      <label for="Address"><b> Enter Your Location*</b></label>
+      <input type="text" id="Address" name="Address" required>
+      <label for="guests"><b> Service*</b></label>
+      <select id="Services" name="Services" required>
+        <option value=""><b> Select  the service </b></option>
+        <option value="1">Mechanic</option>
+        <option value="2">Electrician</option>
+        <option value="3">Plumber</option>
+        <option value="4">Gadget Repair</option>
+        <option value="5">House Keeping</option>
+        
+      </select>
+      <br>
+      <!-- <label for="location"><b>Current 
+        location *</b></label>
+      <input type="location" id="location" name="location" required> -->
+          
+      
+      <button  class ="center"type="submit">Submit</button>
+
+
+      <a class="home_link" href="home.html"> 👈🏻 HOME</a>
+
+    </form>
+  </div>
+
+  
+
+
+
+ 
+
+
+</body>
+</html>
